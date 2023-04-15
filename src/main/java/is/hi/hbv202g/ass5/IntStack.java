@@ -53,7 +53,10 @@ public class IntStack {
     }
 
     // TODO: Add isEmpty() method
-
+    public boolean isEmpty() {
+    	return nextPushLocation == 0;
+    }
+    
     /**
      * Pushes an int on the stack.
      * @param element the int to be pushed on the stack

@@ -61,4 +61,11 @@ public class IntStackTest {
     	stack.push(11);
     }
     
+    @Test
+    public void testIsEmpty() {
+    assertTrue(stack.isEmpty());
+    stack.push(11);
+    assertFalse(stack.isEmpty());
+    }
+   
 }
