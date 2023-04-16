@@ -1,4 +1,4 @@
-# HBV202GAssignment5
+# HBV202GAssignment5 Autograder
 A very simple implementation of a stack for storinger integer numbers to be tested using JUnit4.
 
 This project is a Maven project, i.e. it uses the standard Maven project structure that your IDE hopefully understands when you `git clone` it. The provided Maven POM includes the JUnit4 dependency.
